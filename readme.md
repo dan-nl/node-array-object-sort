@@ -30,5 +30,5 @@ life_expectancy = [
 ];
 
 sorted_asc = arrayObjectSort( election_results, 'expectancy' );
-sorted_dsc = arrayObjectSort( election_results, 'expectancy', false );
+sorted_dsc = arrayObjectSort( election_results, 'expectancy', 'dsc' );
 ```
