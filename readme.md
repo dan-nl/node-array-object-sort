@@ -1,4 +1,4 @@
-## arrayObjectSort( array, sort_on, asc )
+## arrayObjectSort( array, sort_on, sort_order )
 sorts an array of objects based on the object property provided by sort_on and returns the resulting array
 ```javascript
 @param {Array} array
