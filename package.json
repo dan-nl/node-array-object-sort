@@ -4,15 +4,20 @@
   "description": "sorts an array of objects based on the object property provided by sort_on and returns the resulting array",
   "license": "MIT",
   "author": "dan entous",
-  "main": "index.js",
+  "main": "src",
   "repository": {
     "type": "git",
     "url": "git://github.com/dan-nl/node-array-object-sort.git"
   },
   "scripts": {
-    "jshint": "jshint ."
+    "cover": "istanbul cover _mocha -- -R spec",
+    "jshint": "jshint .",
+    "test": "mocha"
   },
   "devDependencies": {
-    "jshint": "^2.9.2"
+    "chai": "3.5.0",
+    "istanbul": "0.4.4",
+    "jshint": "2.9.2",
+    "mocha": "3.0.2"
   }
 }
