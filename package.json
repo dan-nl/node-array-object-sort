@@ -1,6 +1,6 @@
 {
   "name": "node-array-object-sort",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "sorts an array of objects based on the object property provided by sort_on and returns the resulting array",
   "main": "src",
   "author": "dan entous",
